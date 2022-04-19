@@ -8,10 +8,10 @@
 		<version>2.0.9.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.kimmking.08cache</groupId>
-	<artifactId>redis</artifactId>
+	<groupId>online.flyingfish</groupId>
+	<artifactId>haredis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>redis</name>
+	<name>haredis</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
