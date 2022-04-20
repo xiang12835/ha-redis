@@ -1,4 +1,4 @@
-# ha-redis
+# hredis
 High Availability Redis, Spring Boot
 
 >Redis 主从复制
