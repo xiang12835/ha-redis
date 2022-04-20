@@ -1,4 +1,4 @@
-package online.flyingfish.haredis.cluster;
+package online.flyingfish.hredis.cluster;
 
 import lombok.SneakyThrows;
 import redis.clients.jedis.HostAndPort;

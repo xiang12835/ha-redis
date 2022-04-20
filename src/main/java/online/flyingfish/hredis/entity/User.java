@@ -1,4 +1,4 @@
-package online.flyingfish.haredis.entity;
+package online.flyingfish.hredis.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package online.flyingfish.haredis.controller;
+package online.flyingfish.hredis.controller;
 
-import online.flyingfish.haredis.entity.User;
+import online.flyingfish.hredis.entity.User;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

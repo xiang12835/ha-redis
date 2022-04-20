@@ -1,4 +1,4 @@
-package online.flyingfish.haredis.sentinel;
+package online.flyingfish.hredis.sentinel;
 
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.Jedis;

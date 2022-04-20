@@ -1,4 +1,4 @@
-package online.flyingfish.haredis.hazelcast;
+package online.flyingfish.hredis.hazelcast;
 
 public class HazelcastDemo {
 

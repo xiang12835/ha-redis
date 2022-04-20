@@ -1,20 +1,20 @@
-package online.flyingfish.haredis;
+package online.flyingfish.hredis;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import redis.clients.jedis.Jedis;
 
-@SpringBootApplication(scanBasePackages = "online.flyingfish.haredis")
+@SpringBootApplication(scanBasePackages = "online.flyingfish.hredis")
 public class RedisApplication {
 
 	public static void main(String[] args) {
 
 		// C1.最简单demo
-		Jedis jedis = new Jedis("localhost", 6381);
+		Jedis jedis = new Jedis("localhost", 6379);
 		System.out.println(jedis.info());
 		jedis.set("uptime", new Long(System.currentTimeMillis()).toString());
 		System.out.println(jedis.get("uptime"));
-		jedis.set("teacher", "YX");
-		System.out.println(jedis.get("teacher"));
+		jedis.set("student", "YX");
+		System.out.println(jedis.get("student"));
 //
 //		// C2.基于sentinel和连接池的demo
 //		Jedis sjedis = SentinelJedis.getJedis();
